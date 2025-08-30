@@ -3,6 +3,7 @@
 <html lang = "en">
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mariam</title>
 <link rel="icon" type="image/x-icon" href="Images/Cute_puppy.jpeg">
 <!-- Styling -->
@@ -35,37 +36,58 @@ a:hover
   <li>Mariam</li>
   <li>Friends</li>
 </ol>
-
+<!-- FORMS -->
+ <h3>Sign In Form</h3>
+ <form>
+    <input type="email" placeholder="Email"/>
+    <input type="password" placeholder="Password"/>
+    <input type="file"/>
+    <input type="color"/>
+    <input type="radio"/>
+<!-- Submit button -->
+    <button type="submit">Login</button>
+ </form>
 <dl>
   <dt>
     Coffee:
     <dd>It's Yummm</dd>
   </dt>
 </dl>
+<!-- Simple Button -->
+<button type="button">Click Here</button>   
 <!-- JavaScript Code of Bulb -->
 <script>
-function light(chip) {
+function light(sw) {
   var pic;
-  if (chip == 0) 
+  if (sw == 0) 
   {
-    pic = "pic_bulboff.gif"
+    pic = "Images/off.png"
   } 
   else 
   {
-    pic = "pic_bulbon.gif"
+    pic = "Images/on.png"
   }
-  document.getElementById('myImage').src = pic;
+  document.getElementById('Images').src = pic;
 }
 </script>
 
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+<img id="Images" src="Images/off.png" width="250" height="250">
 
 <p>
 <button type="button" onclick="light(1)">(Light On)</button>
 <button type="button" onclick="light(0)">Light Off</button>
 </p>
 
+<video width="320" height="240" controls>
+  <source src="Images/movie.mp4">
+</video>
+
 <h1 style="font-family:Georgia; background-color:crimson ">My First Heading</h1>
+
+<iframe 
+src = "https://www.youtube.com/embed/md3HfH0SWOI">
+</iframe>
+
 
 <!--      This is a comment      -->
 <p>Welcome to Book, Please Access <a href="#C4">Chapter 4</a></p>
