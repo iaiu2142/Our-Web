@@ -42,6 +42,28 @@ a:hover
     <dd>It's Yummm</dd>
   </dt>
 </dl>
+<!-- JavaScript Code of Bulb -->
+<script>
+function light(chip) {
+  var pic;
+  if (chip == 0) 
+  {
+    pic = "pic_bulboff.gif"
+  } 
+  else 
+  {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">(Light On)</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
 
 <h1 style="font-family:Georgia; background-color:crimson ">My First Heading</h1>
 
