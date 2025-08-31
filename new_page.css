@@ -1,0 +1,32 @@
+body{
+    background-image: url(Images/dogy.png);
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+
+}
+
+p {
+    font-size: larger;
+    font-style: italic;
+}
+
+p{
+    border-style: solid;
+    border-radius: 2%;
+    border-color: coral;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 3%;
+   
+}
+
+
+h1 {
+    background-color: rgb(30, 168, 17);
+    border-radius: 2%;
+    border-color: darkred;
+}
